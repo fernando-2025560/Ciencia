@@ -1188,22 +1188,22 @@ h2 {
 
 .video-frame {
   position: absolute;
-  top: 536.6929133858267px;
-  left: 37.79527559055118px;
-  width: 320px;
-  height: 180px;
-  border-radius: 5px;
+  top: 81.68841908460072vh;
+  left:  2.766857656702136vw;
+  width: 23.42606149341142vw;
+  height: 27.397260273972602vh;
+  border-radius:  0.36603221083455345vw;
 }
 
 
  /* Aumenta o tamanho da barra de rolagem */
 ::-webkit-scrollbar {
-  width: 16px; /* Largura da barra de rolagem */
+  width:  1.171303074670571vw; /* Largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: darkgrey; /* Cor do "polegar" da barra */
-  border-radius: 5px; /* Borda arredondada */
+  border-radius: 0.36603221083455345vw; /* Borda arredondada */
 }
 
 ::-webkit-scrollbar-track {
@@ -1212,7 +1212,7 @@ h2 {
 
 /* Adicionando um container com rolagem */
 .container {
-  height: 793.7px; /* Altura da área rolável (21 cm) */
+  height: 120.80669710806697vh; /* Altura da área rolável (21 cm) */
   overflow-y: scroll; /* Permite rolagem vertical */
   width: 100%; /* Largura do container */
 }
@@ -1220,19 +1220,19 @@ h2 {
 
 #customVideoBox2 {
   position: absolute;
-  top: 529px;
-  left: 37.79527559055118px;
-  height: 180px;
+  top: 80.51750380517504vh;
+  left: 2.766857656702136vw;
+  height: 27.397260273972602vh;
 }
 
 #customYT2 {
-  width: 320px;
-  height: 180px;
+  width: 23.42606149341142vw;
+  height:  27.397260273972602vh;
 }
 
 #videoCaption2 {
-  margin-top: 37.79527559055118px;
-  width: 320px;
+  margin-top: 5.752705569338079vh;
+  width: 23.42606149341142vw;
   font-size: 13px;
   color: #000;
 }
@@ -1241,27 +1241,27 @@ h2 {
   display: block;
   text-align: absolute;
   text-decoration: none;
-  padding: 8px;
-  border-radius: 5px;
+  padding: 1.21765601217656vh;
+  border-radius: 0.36603221083455345vw;
   color: #000;
   font-family: Arial, sans-serif;
 }
 
 #customVideoBox3 {
   position: absolute;
-  top: 529px;
-  left: 377.95275590551176px;
-  height: 180px;
+  top: 80.51750380517504vh;
+  left: 27.668576567021358vw;
+  height: 27.397260273972602vh;
 }
 
 #customYT3 {
-  width: 320px;
-  height: 180px;
+  width: 23.42606149341142vw;
+  height:  27.397260273972602vh;
 }
 
 #videoCaption3 {
   margin-top: 37.79527559055118px;
-  width: 320px;
+  width: 23.42606149341142vw;
   font-size: 13px;
   color: #000;
 }
@@ -1270,18 +1270,18 @@ h2 {
   display: block;
   text-align: absolute;
   text-decoration: none;
-  padding: 8px;
-  border-radius: 5px;
+  padding: 1.21765601217656vh;
+  border-radius: 0.36603221083455345vw;
   color: #000;
   font-family: Arial, sans-serif;
 }
 
 #customVideoBox4 {
   position: absolute;
-  top: 529.13px; /* 14 cm do topo da tela */
-  left:  718.11px; /* 19 cm da lateral esquerda */
-  width: 320px; /* Largura do vídeo */
-  height: 180px; /* Altura do vídeo */
+  top: 80.5372907153729vh; /* 14 cm do topo da tela */
+  left:   52.57027818448024vw; /* 19 cm da lateral esquerda */
+  width:  23.42606149341142vw; /* Largura do vídeo */
+  height: 27.397260273972602vh; /* Altura do vídeo */
   background-color: #000; /* Fundo preto para o contêiner do vídeo */
   text-decoration: underline;
 }
@@ -1294,7 +1294,7 @@ h2 {
 }
 
 #videoCaption4 {
-  margin-top: 10px;
+  margin-top: 1.5220700152207vh;
   text-align: absolute;
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -1326,13 +1326,13 @@ h2 {
   position: absolute;        /* permite posicionamento exato na tela */
   left: 377.95px;                 /* distância da lateral esquerda */
   top: 755.90px;                  /* distância do topo da tela */
-  width: 320px;              /* largura do vídeo (igual à do iframe) */
+  width: 23.42606149341142vw;              /* largura do vídeo (igual à do iframe) */
   text-align: absolute;        /* centraliza a legenda abaixo do vídeo */
 }
 
 /* Estilo do vídeo incorporado */
 .video-container iframe {
-  width: 320px;              /* largura exata */
+  width: 23.42606149341142vw;              /* largura exata */
   height: 192px;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
@@ -1358,7 +1358,7 @@ h2 {
   position: absolute;
   top: 755.90px;         /* distância do topo da tela */
   left: 37.8px;         /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo (ajuste se desejar) */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo (ajuste se desejar) */
   height: 197px;     /* altura proporcional (16:9) */
   display: flex;
   flex-direction: column;
@@ -1367,7 +1367,7 @@ h2 {
 
 /* Estilo do iframe do vídeo */
 #customVideoBox5 iframe {
-  width: 320px;      /* largura fixa do vídeo */
+  width: 23.42606149341142vw;      /* largura fixa do vídeo */
   height: 180px;     /* altura proporcional */
   border: none;      /* remove borda */
 }
@@ -1399,7 +1399,7 @@ h2 {
   position: absolute;
   top: 755.9055118110235px;         /* ajuste conforme a posição do seu vídeo */
   left: 718.1102362204724px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1408,7 +1408,7 @@ h2 {
   position: absolute;
   top: calc(755.9055118110235px + 180px); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1426,7 +1426,7 @@ h2 {
   position: absolute;
   top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
   left: 718.1102362204724px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1435,7 +1435,7 @@ h2 {
   position: absolute;
   top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1451,7 +1451,7 @@ h2 {
   position: absolute;
   top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
   left: 377.95px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1460,7 +1460,7 @@ h2 {
   position: absolute;
   top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 377.95px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1477,7 +1477,7 @@ h2 {
   position: absolute;
   top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
   left: 37.8px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1486,7 +1486,7 @@ h2 {
   position: absolute;
   top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 37.8px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1503,7 +1503,7 @@ h2 {
   position: absolute;
   top: 1209px;         /* ajuste conforme a posição do seu vídeo */
   left: 37.8px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1512,7 +1512,7 @@ h2 {
   position: absolute;
   top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 37.8px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1529,7 +1529,7 @@ h2 {
   position: absolute;
   top: 1209px;         /* ajuste conforme a posição do seu vídeo */
   left: 377.953px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1538,7 +1538,7 @@ h2 {
   position: absolute;
   top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 377.953px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1554,7 +1554,7 @@ h2 {
   position: absolute;
   top: 1209px;         /* ajuste conforme a posição do seu vídeo */
   left: 718.11px;        /* distância da lateral esquerda */
-  width: 320px;      /* largura padrão do vídeo */
+  width: 23.42606149341142vw;      /* largura padrão do vídeo */
   height: 180px;     /* altura padrão do vídeo */
 }
 
@@ -1563,7 +1563,7 @@ h2 {
   position: absolute;
   top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 718.11px;                    /* mesma distância lateral do vídeo */
-  width: 320px;                  /* igual à largura do vídeo */
+  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
