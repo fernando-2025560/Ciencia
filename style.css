@@ -18,14 +18,14 @@ html, body {
 .search-container {
     position: absolute !important;
     top: 0.093vh !important;  /* Distância do topo */
-    left: 600px !important;
-    transform: translateX(-685px) !important;
+    left: 43.92386530014641vw !important;
+    transform: translateX(-76.111vh) !important;
     display: flex !important;
     align-items: center !important;
 }
 
 .content {
-    padding: 19046px !important;
+    padding: 1394.289897510981vw !important;
 }
 
 
@@ -1597,6 +1597,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
