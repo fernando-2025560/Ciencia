@@ -18,7 +18,7 @@ html, body {
 
 .search-container {
     position: absolute !important;
-    top: 1px !important;  /* Distância do topo */
+    top: 0.093vh !important;  /* Distância do topo */
     left: 600px !important;
     transform: translateX(-685px) !important;
     display: flex !important;
@@ -219,8 +219,8 @@ body {
   background: rgba(255, 255, 255, 0.2) !important;
   box-shadow : 
      0 4px 10px rgba(255,255,255, 0.3),
-     inset 1px 1px 2px rgba(0,0,0,0.3),
-     inset 2px 2px 2px rgba(0,0,0,0.1) !important;
+     inset 0.093vh 0.093vh 0.186vh rgba(0,0,0,0.3),
+     inset 0.186vh 0.186vh 0.186vh rgba(0,0,0,0.1) !important;
   display: flex !important;
   justify-content: center  !important;
   align-items: center !important;
@@ -238,7 +238,7 @@ body {
   transform: scale(1.4) translateX(-3.7px) !important;
   box-shadow:
       0 3px 8px rgba(0,0,0,0.4),
-      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset 0.186vh 0.186vh 3px rgba(255, 255, 255, 0.6),
       inset 3px 3px 3px rgba(0,0,0,0.2) !important;
       top: 611.5px !important;
 }
@@ -532,7 +532,7 @@ body {
 :root {
   --video-width: 226.77165354330708px;
   --video-height: 171.21259842519686px; /* 16:9 proporção exata para 60px largura */
-  --video-top: 0px;
+  --video-top: 0;
   --video-left: 134px;
   --caption-gap: 56.69291338582677px;
 }
@@ -699,7 +699,7 @@ svg.chart {
   pointer-events: none;
   display: none;
   white-space: nowrap;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  box-shadow: 0 0.186vh 6px rgba(0,0,0,0.3);
 }
 
 
@@ -710,12 +710,12 @@ svg.chart {
 #graficoSvg {
   cursor: pointer;
   margin: 50px;
-  border: 2px solid transparent;
+  border: 0.186vh solid transparent;
   transition: border 0.3s;
 }
 
 #graficoSvg:hover {
-  border: 2px solid #3498db;
+  border: 0.186vh solid #3498db;
 }
 
 /* Container do gráfico dinâmico */
@@ -980,7 +980,7 @@ margin-top: 37.79527559055118px;
 }
 
 .video-legenda {
-  margin-top: 4px;
+  margin-top: 0.372vh;
   font-size: 13px;
   font:  Arial, sans-serif;
 }
@@ -1000,7 +1000,7 @@ margin-top: 37.79527559055118px;
 }
 
 .video-caption {
-  margin-top: 4px;         /* 1mm abaixo do vídeo */
+  margin-top: 0.186vh;         /* 1mm abaixo do vídeo */
   font-size: 13px;
   text-align: absolute;
   color: #000;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
