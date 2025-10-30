@@ -59,7 +59,7 @@ header{
 /* Logo */
 .logo {
     position: absolute !important;
-    top: 0 !important;
+    top: 1cm !important;
     left: 0 !important;
     width: 3px !important;
     height: 56.7px !important;
@@ -1598,6 +1598,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
