@@ -13,8 +13,6 @@ html, body {
 }
 
 
-iframe[src*="youtube"] { width: 100vw;
-                        height: 56.25; }
 
 .search-container {
     position: absolute !important;
@@ -1599,6 +1597,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
