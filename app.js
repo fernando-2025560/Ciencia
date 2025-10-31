@@ -303,8 +303,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
     new QRCode(document.getElementById("qrcode"), {
       text: url,
-      width: 113,   // 3cm ≈ 113px
-      height: 113,
+      width: 8.272327964860908vw,   // 3cm ≈ 113px
+      height: 17.199391171993913vh,
       colorDark: "#000000",
       colorLight: "#ffffff",
       correctLevel: QRCode.CorrectLevel.H
@@ -372,11 +372,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const css = `
     /* Estilos conforme especificado acima */
-    #custom-overlay-container { position: absolute; top: 113px; left: 566.9291338582676px; pointer-events: none; }
+    #custom-overlay-container { position: absolute; top: 17.199391171993913vh; left: 41.502864850532035vw; pointer-events: none; }
     #custom-overlay-container > * { pointer-events: auto; }
     #custom-video { position: relative; z-index: 2; display: block; }
     #custom-image { position: relative; z-index: 1; display: block; }
-    #custom-caption { position: relative; top: 3.779527559055118px; display: block; text-align: center; z-index: 3; }
+    #custom-caption { position: relative; top: 0.5752705569338079vh; display: block; text-align: center; z-index: 3; }
   `;
   const style = document.createElement('style');
   style.textContent = css;
@@ -499,8 +499,8 @@ function showTooltipPersistent(e, d) {
 // Posicionar tooltip
 function positionTooltip(e) {
   const rect = wrap.getBoundingClientRect();
-  tooltip.style.left = `${rect.left + e.target.getAttribute("x") * 1 + 10}px`;
-  tooltip.style.top = `${rect.top + e.target.getAttribute("y") * 1 - 25}px`;
+  tooltip.style.left = `${rect.left + e.target.getAttribute("x") * 0.07320644216691069 + 0.7320644216691069}vw`;
+  tooltip.style.top = `${rect.top + e.target.getAttribute("y") *  0.15220700152207 - 3.8051750380517504}vh`;
 }
 
 // Redesenhar ao redimensionar
@@ -530,12 +530,12 @@ const initialData = {
   labels: ['OMS', 'Brasil', 'União Europeia'],
   datasets: [
     {
-      label: 'Pesquisas em DNA Projetado (nº de publicações, 2024)',
+      label: 'Pesquisas em DNA Projetado (nº de publicações, 2025)',
       data: [1500, 620, 2100],
       backgroundColor: ['#e74c3c', '#2ecc71', '#3498db']
     },
     {
-      label: 'Investimento em Biotecnologia (bilhões USD, 2024)',
+      label: 'Investimento em Biotecnologia (bilhões USD, 2025)',
       data: [220, 58, 180],
       backgroundColor: ['#c0392b', '#27ae60', '#2980b9']
     }
@@ -934,6 +934,7 @@ function ajustarLayout() {
 // Executa o ajuste ao carregar e redimensionar
 window.addEventListener("load", ajustarLayout);
 window.addEventListener("resize", ajustarLayout);
+
 
 
 
