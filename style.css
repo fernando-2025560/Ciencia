@@ -237,7 +237,7 @@ body {
 .glass-icon:hover {
   transform: scale(1.4) translateX(-0,2708638360175695vw) !important;
   box-shadow:
-      0 0.21961932650073207vw 8px rgba(0,0,0,0.4),
+      0 0.21961932650073207vw         0.5856515373352855vw rgba(0,0,0,0.4),
       inset 0.186vh 0.186vh  0.21961932650073207vw rgba(255, 255, 255, 0.6),
       inset 0.21961932650073207vw 0.21961932650073207vw 0.21961932650073207vw rgba(0,0,0,0.2) !important;
       top: 93.07458143074581vh !important;
@@ -272,9 +272,9 @@ body {
 #qrcode-container {
   position: fixed !important;
   left: 92.5% !important;
-  bottom: 37.79527559px !important;
-  width: 37.79527559px !important;
-  height: 96.77px !important;
+  bottom:  2.766857656661786vw !important;
+  width:  2.766857656661786vw !important;
+  height: 14.729071537290716vh !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -406,7 +406,7 @@ body {
   width: var(--video-width);
   height: var(--video-height);
   object-fit: cover;
-  border-radius: 5px;
+  border-radius:  0.36603221083455345vw;
   z-index: 2;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -939,7 +939,7 @@ canvas {
   font: 500 13px/1.2   Arial, sans-serif;
   text-decoration: none;
   color: #000 !important;
-  width: 320px;
+  width: 23.42606149341142vw;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -1260,7 +1260,7 @@ h2 {
 }
 
 #videoCaption3 {
-  margin-top: 37.79527559055118px;
+  margin-top: 5.752705569338079vh;
   width: 23.42606149341142vw;
   font-size: 13px;
   color: #000;
@@ -1324,8 +1324,8 @@ h2 {
 /* Container geral do vídeo */
 .video-container {
   position: absolute;        /* permite posicionamento exato na tela */
-  left: 377.95px;                 /* distância da lateral esquerda */
-  top: 755.90px;                  /* distância do topo da tela */
+  left: 27.668374816983896vw;                 /* distância da lateral esquerda */
+  top: 115.05327245053273vh;                  /* distância do topo da tela */
   width: 23.42606149341142vw;              /* largura do vídeo (igual à do iframe) */
   text-align: absolute;        /* centraliza a legenda abaixo do vídeo */
 }
@@ -1333,22 +1333,22 @@ h2 {
 /* Estilo do vídeo incorporado */
 .video-container iframe {
   width: 23.42606149341142vw;              /* largura exata */
-  height: 192px;             /* altura exata */
+  height: 29.22374429223744vh;             /* altura exata */
   display: block;            /* garante que fique acima da legenda */
   margin: 0 auto;            /* centraliza dentro do container */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
+  box-shadow: 0 0.29282576866764276vw     0.8784773060029283vw rgba(0, 0, 0, 0.25); /* sombra sutil opcional */
 }
 
 /* Legenda-link logo abaixo do vídeo */
 .video-caption {
   display: block;
-  margin-top: 3.7795275590551185px;           /* 1 mm abaixo do vídeo */
+  margin-top: 0.5752705569338079vh;           /* 1 mm abaixo do vídeo */
   font-size: 13px;
   font-family: Arial, sans-serif;
   color: #000;
   text-decoration: underline;
-  padding: 4px 8px;
-  border-radius: 6px;
+  padding: 0.29282576866764276vw     0.5856515373352855vw;
+  border-radius: 0.43923865300146414vw;
   transition: 0.3s;
 }
 
@@ -1356,10 +1356,10 @@ h2 {
 /* Contêiner principal do vídeo */
 #customVideoBox5 {
   position: absolute;
-  top: 755.90px;         /* distância do topo da tela */
-  left: 37.8px;         /* distância da lateral esquerda */
+  top: 115.05327245053273vh;         /* distância do topo da tela */
+  left: 2.7672035139092235vw;         /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo (ajuste se desejar) */
-  height: 197px;     /* altura proporcional (16:9) */
+  height:  29.984779299847794vh;     /* altura proporcional (16:9) */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1368,13 +1368,13 @@ h2 {
 /* Estilo do iframe do vídeo */
 #customVideoBox5 iframe {
   width: 23.42606149341142vw;      /* largura fixa do vídeo */
-  height: 180px;     /* altura proporcional */
+  height: 27.397260273972602vh;     /* altura proporcional */
   border: none;      /* remove borda */
 }
 
 /* Legenda abaixo do vídeo */
 #videoCaption5 {
-  margin-top: 3.78px;   /* legenda a 1mm abaixo do vídeo */
+  margin-top: 0.5753424657534246vh;   /* legenda a 1mm abaixo do vídeo */
   font-size: 13px;
   text-align: absolute;
 }
@@ -1383,8 +1383,8 @@ h2 {
 #videoCaption5 a {
   text-decoration: underline;
   color: #000; /* cor da legenda (ajuste conforme fundo) */
-  padding: 3px 6px;
-  border-radius: 4px;
+  padding: 0.45662100456621vh   0.91324200913242vh;
+  border-radius: 0.60882800608828vh;
 }
 
 
@@ -1400,14 +1400,14 @@ h2 {
   top: 755.9055118110235px;         /* ajuste conforme a posição do seu vídeo */
   left: 718.1102362204724px;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption7 {
   position: absolute;
-  top: calc(755.9055118110235px + 180px); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
+  top: calc(115.05411138676156vh + 27.397260273972602vh); /* 20cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left:  52.570295477340586vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1424,17 +1424,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox8 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.1102362204724px;        /* distância da lateral esquerda */
+  top:  149.80974124809742vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 52.570295477340586vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption8 {
   position: absolute;
-  top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.1102362204724px;                    /* mesma distância lateral do vídeo */
+  top: calc(149.80974124809742vh + 27.397260273972602vh); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 52.570295477340586vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1449,17 +1449,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox9 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 377.95px;        /* distância da lateral esquerda */
+  top: 149.80974124809742vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 27.668374816983896vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption9 {
   position: absolute;
-  top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 377.95px;                    /* mesma distância lateral do vídeo */
+  top: calc(149.80974124809742vh + 27.397260273972602vh); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 27.668374816983896vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1475,17 +1475,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox10 {
   position: absolute;
-  top: 984.25px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
+  top: 149.80974124809742vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 2.7672035139092235vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height:  27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption10 {
   position: absolute;
-  top: calc(984.25px + 180px); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
+  top: calc(149.80974124809742vh + 27.397260273972602vh); /* 26cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 2.7672035139092235vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1501,17 +1501,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox11 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 37.8px;        /* distância da lateral esquerda */
+  top:  184.01826484018264vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 2.7672035139092235vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption11 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 37.8px;                    /* mesma distância lateral do vídeo */
+  top: calc(184.01826484018264vh + 27.397260273972602vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 2.7672035139092235vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1527,17 +1527,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox12 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 377.953px;        /* distância da lateral esquerda */
+  top: 184.01826484018264vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 27.668594436310393vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption12 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 377.953px;                    /* mesma distância lateral do vídeo */
+  top: calc(184.01826484018264vh + 27.397260273972602vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 27.668594436310393vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1552,17 +1552,17 @@ h2 {
 /* Caixa do vídeo */
 #customVideoBox13 {
   position: absolute;
-  top: 1209px;         /* ajuste conforme a posição do seu vídeo */
-  left: 718.11px;        /* distância da lateral esquerda */
+  top: 184.01826484018264vh;         /* ajuste conforme a posição do seu vídeo */
+  left: 52.57027818448024vw;        /* distância da lateral esquerda */
   width: 23.42606149341142vw;      /* largura padrão do vídeo */
-  height: 180px;     /* altura padrão do vídeo */
+  height: 27.397260273972602vh;     /* altura padrão do vídeo */
 }
 
 /* Legenda-link abaixo do vídeo */
 #videoCaption13 {
   position: absolute;
-  top: calc(1209px + 180px); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
-  left: 718.11px;                    /* mesma distância lateral do vídeo */
+  top: calc(184.01826484018264vh + 27.397260273972602vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
+  left: 52.57027818448024vw;                    /* mesma distância lateral do vídeo */
   width: 23.42606149341142vw;                  /* igual à largura do vídeo */
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -1576,7 +1576,7 @@ h2 {
 
 
 /* Responsivo (opcional) */
-@media (max-width: 600px) {
+@media (max-width: 43.92386530014641vw) {
   #customYT,
   #videoCaption {
     width: 100%;
@@ -1587,17 +1587,18 @@ h2 {
 
 
 /* Responsividade */
-@media (max-width: 1024px) {
+@media (max-width: 74.96339677891655vw) {
   .video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 43.92386530014641vw) {
   .video-grid {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
