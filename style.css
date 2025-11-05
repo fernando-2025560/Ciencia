@@ -1,3 +1,41 @@
+/* Garante que tudo responda ao tamanho da tela */
+*{
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Evita que qualquer item estoure da tela em dispositivos movéis */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.container, div, section, article {
+  max-width: 100%;
+}
+
+body {
+  word-wrap: brak-word;
+}
+
+@media (max-width: 768px) {
+  /* (opcional)  deixe vazio para não alterar nada */
+
+
+
 
 html, body {
   margin: 0 !important;
@@ -1562,7 +1600,8 @@ h2 {
   position: absolute;
   top: calc(184.01826484018264vh + 27.397260273972602vh); /* 32cm (posição do topo do vídeo) + altura do vídeo + 1mm */
   left: 52.57027818448024vw;                    /* mesma distância lateral do vídeo */
-  width: 23.42606149341142vw;                  /* igual à largura do vídeo */
+  width: 29.632%;  /* igual à largura do vídeo */
+  height: 16.668%;   
   text-align: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
   font-size: 13px;
@@ -1574,13 +1613,6 @@ h2 {
 }
 
 
-/* Responsivo (opcional) */
-@media (max-width: 43.92386530014641vw) {
-  #customYT,
-  #videoCaption {
-    width: 100%;
-  }
-}
 
 
 
@@ -1597,6 +1629,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
