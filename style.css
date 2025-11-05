@@ -1,38 +1,3 @@
-/* Garante que tudo responda ao tamanho da tela */
-*{
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
-/* Evita que qualquer item estoure da tela em dispositivos movéis */
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-video, iframe {
-  max-width: 100%;
-  height: auto;
-}
-
-.container, div, section, article {
-  max-width: 100%;
-}
-
-body {
-  word-wrap: brak-word;
-}
-
-@media (max-width: 768px) {
-  /* (opcional)  deixe vazio para não alterar nada */
 
 
 
@@ -1629,6 +1594,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
