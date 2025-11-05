@@ -1,14 +1,8 @@
-
-
-
-
-
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  width: 76.0417vw !important;
-  min-width: 76.0417vw !important;
-  min-height: 220svh !important;
+  min-width: 100% !important;
+  min-height: 180% !important;
   background-image: url(1.jpg) !important;
   background-size: cover !important;
   background-position: center center !important;
@@ -1594,6 +1588,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
