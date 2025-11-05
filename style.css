@@ -2,6 +2,7 @@
 
 
 
+
 html, body {
   margin: 0 !important;
   padding: 0 !important;
@@ -14,7 +15,6 @@ html, body {
   background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
-
 
 
 .search-container {
@@ -1594,6 +1594,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
