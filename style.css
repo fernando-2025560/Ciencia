@@ -1,11 +1,7 @@
-html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-width: 100% !important;
-  min-height: 180% !important;
+body {
   background-image: url(1.jpg) !important;
-  background-size: cover !important;
-  background-position: center center !important;
+  background-size: 100%  100% !important;
+  background-position: center top !important;
   background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
@@ -1587,6 +1583,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
