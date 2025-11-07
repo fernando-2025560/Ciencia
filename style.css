@@ -6,6 +6,8 @@ body {
   background-position: center center !important;
   background-attachment: scroll !important;
   background-repeat: no-repeat !important;
+  width: 100vw;
+  height: 200vh;
 }
 
 .search-container {
@@ -1585,6 +1587,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
