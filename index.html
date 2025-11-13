@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="responsive-vh-vw.css">
     <!-- Plyr CSS -->
 <!-- link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css"-->
 
@@ -18,26 +17,41 @@
 
       
         body {
+        margin: 0;
         background: #f4f4f4;
-      }
+        font-family: Arial, sans-serif;
+        }
+        
+        
 
 
         .barra {
             /* Estilos para a barra */
             background-color: #f1f1f1;
-            padding:  0.7320644216691069vw;
+            padding: 10px;
         }
 
         .botao-direita {
             float: right; /* Posiciona o botão a direita */
         }
-        
         /* Estilos gerais para centralização e layout */
-        body {
-            left: 1.0980966325036603vw;
+        body, html {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            left: 15px;
+            align-items: start;
+            height: 100vh;
+            font-family: Arial, sans-serif;
         } 
 
-        
+        body{
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
         .max-width {
         background-image: url(1.jpg);
         width: 100vw;
@@ -55,9 +69,9 @@
        h1 {
             font-size: 24.6px !important;
             position: absolute !important; 
-            top: 1.21765601217656vh !important;
-            left: 7.759882869692533vw !important; 
-            margin: 0.7320644216691069vw !important; /* Ajusta a margem conforme necessário */
+            top: 8px !important;
+            left: 106px !important; 
+            margin: 10px !important; /* Ajusta a margem conforme necessário */
     }
 
     .barra-de-pesquisa {
@@ -65,7 +79,7 @@
       top: 0;
       left: 50%;
       background-color: white;
-      padding: 0.7320644216691069vw;
+      padding: 10px;
 
     }
     
@@ -77,7 +91,7 @@
 
 
 
-<img src="3.jpg" alt="Logo" id="logo" style="position: absolute; top:0 ; left: 0; width: 8.272327964860908vw; height: 10.71537290715373vh;">
+<img src="3.jpg" alt="Logo" id="logo" style="position: absolute; top:0 ; left: 0; width: 113px; height: 70.4px;">
          <header>  
          <h1 style="font-style: italic;">Moldando o Amanhã</h1>
          </header>
@@ -85,7 +99,16 @@
 
 
         <style>
-            
+            body {
+              margin: 0;
+              padding: 0;
+              background-color: #f0f0f0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+            }
+        
             main {
               text-align: center;
             }
@@ -93,12 +116,12 @@
             .search-bar {
               width: 34.8vw !important;
               height: 4.7vh !important;
-              padding-left:  0.43191800878477304vw !important;
+              padding-left: 5.9px !important;
               font-size: 16px !important;
-              border: 0.212298682284041vw solid black !important;
-              border-radius: 1.171303074670571vw !important;
+              border: 2.9px solid black !important;
+              border-radius: 16px !important;
               position: absolute !important;
-              top: 1.156773211567732vh !important;
+              top: 7.6px !important;
               left: 50% !important;
               transform: translateX(-50%) !important;
               z-index: 99 !important;
@@ -108,17 +131,17 @@
               width: 8.4vw;
               height: 4.7vh;
               font-size: 16px;
-              border: 0.212298682284041vw solid black;
-              border-left: 0.6588579795021962vw;
-              border-radius: 1.171303074670571vw;
+              border: 2.9px solid black;
+              border-left: 9px;
+              border-radius: 16px;
               color: black;
               cursor: pointer;
-              margin-left: 35.69297218155197vw;
+              margin-left: 23px;
               background-color: transparent;
               position: absolute;
-              top:  1.156773211567732vh;
+              top: 7.6px;
               z-index: 99;
-              right: 23.57247437774524vw;
+              right: 329.7px;
             }
         
               </style>
@@ -215,8 +238,8 @@
         
         
         <nav>
-            
-                <div style="position: absolute; top:  10.502283105022832vh; left: 0; right: 0; bottom: 0;">
+            <body style="margin: 0; padding: 0; height: 100vh;">
+                <div style="position: absolute; top: 69px; left: 0; right: 0; bottom: 0; overflow-y: auto;">
                     <marquee direction="left"><strong>A Vida como você nunca viu antes: A ciência e a engenharia genética revolucionando o mundo, o futuro não espera. Ele é projetado! Moldado pela inovação e pela coragem de ir além do limite um dia existente.</strong></marquee>
                 </div>
               </body>
@@ -236,21 +259,20 @@
           </div>
 
 
-         
+          <!-- Container do vídeo -->
+<div class="video-container" id="videoBox">
+  
   <div id="player"></div> <!-- Onde o YouTube será carregado dinamicamente -->
 </div>
- 
-            <!-- Container do vídeo -->
-<div class="video-container" id="customVideoBox" class="video-wrapper">
- 
+
 
 <iframe 
   id="youtubeVideo"
   src="https://www.youtube.com/embed/C5x073iElaA" 
   frameborder="0"
-  allow="accelerometer; autoplay; controls; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
 </iframe>
-</div>
+
 <!-- Legenda com redirecionamento -->
 <div class="caption-link link-legenda" onclick="window.open('https://www.ciencianews.com.br/', '_blank')">
   <p>Descubra as inovações que estão transformando o Mundo. Explore o universo da ciência e tecnologia!</p>
@@ -294,7 +316,7 @@
   <div class="chart-wrap" id="biotechChart">
 
     <!-- SVG no canto inferior-direito (gatilho) -->
-    <svg id="chartSVG" width="8.857979502196192vw" height="12.1765601217656vh" xmlns="http://www.w3.org/2000/svg">
+    <svg id="chartSVG" width="121" height="80" xmlns="http://www.w3.org/2000/svg">
       <rect x="14" y="10" width="100" height="50" fill="#3498db" />
       <text x="15" y="40" fill="#fff">Gráfico Dinâmico</text>
     </svg>
@@ -325,10 +347,10 @@
   <iframe id="customYT" 
   src="https://www.youtube.com/embed/yh-RrGHL5c8?list=PLsRNoUx8w3rOwHx4kVJL5ksS9vTxj5hXn&index=80&rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3" 
   frameborder="0" 
-  allow="autoplay; controls; encrypted-media">
+  allow="autoplay; encrypted-media">
 </iframe>
 <div id="videoCaption">
-  <a href="https://www.vgnoticias.com.br/artigos/tecnologia-ciencia-e-humanizacao-o-tripe-da-medicina-do-futuro/137471" target="_blank">A resposta que você procura pode estar neste episódio</a>
+  <a href="https://www.ufsm.br/midias/arco/post218" target="_blank">A resposta que você procura pode estar neste episódio</a>
 </div>
 </div>
 
@@ -340,7 +362,7 @@
     allow="autoplay; encrypted-media">
   </iframe>
   <div id="videoCaption2">
-    <a href="https://ufsj.edu.br/rodavida/sistema_de_recompensa_cerebral.php" target="_blank">"A Ciência Revela: A Resposta Estava Aqui o Tempo Todo!"</a>
+    <a href="https://www.ufsm.br/midias/arco/post218" target="_blank">"A Ciência Revela: A Resposta Estava Aqui o Tempo Todo!"</a>
   </div>
 </div>
 
@@ -388,7 +410,7 @@
     <iframe id="customYT2" 
       src="https://www.youtube.com/embed/htEHwDuHoYU/&rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3" 
       frameborder="0" 
-      allow="autoplay; controls; encrypted-media">
+      allow="autoplay; encrypted-media">
     </iframe>
     <div id="videoCaption3">
       <a href="https://www.sustentec.com.br/biotecnologia/" target="_blank">"Biotecnologia do Futuro: A Revolução que Sempre Esteve Escondida Dentro de Nós!" </a>
@@ -400,14 +422,12 @@
     <iframe id="customYT2" 
         src="https://www.youtube.com/embed/AKzq0vpdmRk/&rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3" 
         frameborder="0" 
-        allow="autoplay; encrypted-media; controls; picture-in-picture">
+        allow="autoplay; encrypted-media; picture-in-picture">
     </iframe>
     <div id="videoCaption4">
-        <a href="https://revistamaiscarne.com.br/biotecnologia-ciencia-do-futuro-que-ja-esta-no-presente/" target="_blank">“Biotecnologia: o futuro já chegou — descubra como ela transforma alimentos, reduz emissões e revoluciona a produção hoje!”</a>
+        <a href="https://revistamaiscarne.com.br/biotecnologia-ciencia-do-futuro-que-ja-esta-no-presente/" target="_blank">"Biotecnologia:  O Futuro da Ciência que Já Está Transformando o Presente!"</a>
     </div>
 </div>
-
-
 
 <div id="customVideoBox5">
   <iframe 
@@ -421,12 +441,11 @@
 </div>
 </div>
 
-
 <div class="video-container">
   <!-- Vídeo Shorts incorporado -->
   <iframe id="ytVideo"
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/elY_FPWcGwY?rel=0&modestbranding=1&fs=0&controls=1"
     title="YouTube Shorts"
     frameborder="0"
@@ -437,37 +456,12 @@
      "Tecnologia Avança: Super Humanos - O Futuro da Medicina em ação!"
   </a>
 </div>
-    
-
-    
-
-<!-- Novo vídeo YouTube Shorts -->
-<div id="customVideoBox7">
-  
-    <iframe
-      width="23.42606149341142vw"
-      height="27.397260273972602vh"
-      src="https://www.youtube.com/embed/EUsVcMhBkoY?rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3"
-      title="YouTube Shorts"
-      frameborder="0"
-      allow="accelerometer; clipboard-write; controls; encrypted-media; gyroscope; picture-in-picture">
-    </iframe>
-  </div>
-  
-  <!-- Legenda-link -->
-  <div id="videoCaption7">
-    <a href="https://oglobo.globo.com/saude/noticia/2025/06/30/cientistas-iniciam-projeto-para-criar-dna-humano-artificial-a-partir-do-zero-e-especialistas-citam-riscos-entenda.ghtml" 
-       target="_blank">
-       Explore o poder do DNA Projetado e descubra como o Futuro já começou!
-    </a>
-  </div>
-</div>
 
 <div id="customVideoBox8">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/mR9CZXdTaNY?rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3"
     title="YouTube Shorts"
     frameborder="0"
@@ -484,15 +478,11 @@
 </div>
 </div>
 
-
-
-
-
 <div id="customVideoBox9">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/AiqxEru6sdY"
     title="YouTube Shorts"
     frameborder="0"
@@ -509,14 +499,11 @@
 </div>
 </div>
 
-
-
-
 <div id="customVideoBox10">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/2YV-dT52LQg"
     title="YouTube Shorts"
     frameborder="0"
@@ -533,12 +520,11 @@
 </div>
 </div>
 
-
 <div id="customVideoBox11">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/yM3G7397XZ4"
     title="YouTube Shorts"
     frameborder="0"
@@ -557,8 +543,8 @@
 <div id="customVideoBox12">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
+    width="320px"
+    height="180px"
     src="https://www.youtube.com/embed/2muq7tHNGvI"
     title="YouTube Shorts"
     frameborder="0"
@@ -577,10 +563,9 @@
 <div id="customVideoBox13">
   
   <iframe
-    width="23.42606149341142vw"
-    height="27.397260273972602vh"
-    src="https://www.youtube.com/embed/a89ykc7HF7M"
-    title="YouTube Shorts"
+    width="320px"
+    height="180px"
+    src="https://www.youtube.com/embed/q7BOf3EV2Bc"
     frameborder="0"
     allow="accelerometer; clipboard-write; controls; encrypted-media; gyroscope; picture-in-picture">
   </iframe>
@@ -589,18 +574,40 @@
 <!-- Legenda-link -->
 <div id="videoCaption13">
   <a href="https://fiocruz.br/rede-genomica-fiocruz" target="_blank">
-  Cada imagem pulsa como um DNA de ideias. Criando, transformando e inspirando o futuro em silêncio.
+    A Rede Genômica Fiocruz é uma iniciativa de excelência no monitoramento e estudo de patógenos emergentes e endêmicos, com foco em sequenciamento genético para apoiar a vigilância epidemiológica e as políticas de saúde pública.
+
     
   </a>
 </div>
 </div>
 
 
+
+
+<!-- Novo vídeo YouTube Shorts -->
+<div id="customVideoBox7">
+  
+  <iframe
+    width="320px"
+    height="180px"
+    src="https://www.youtube.com/embed/EUsVcMhBkoY?rel=0&modestbranding=1&fs=0&controls=1&disablekb=1&iv_load_policy=3"
+    title="YouTube Shorts"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; controls; encrypted-media; gyroscope; picture-in-picture">
+  </iframe>
+</div>
+
+<!-- Legenda-link -->
+<div id="videoCaption7">
+  <a href="https://oglobo.globo.com/saude/noticia/2025/06/30/cientistas-iniciam-projeto-para-criar-dna-humano-artificial-a-partir-do-zero-e-especialistas-citam-riscos-entenda.ghtml" 
+     target="_blank">
+     Explore o poder do DNA Projetado e descubra como o Futuro já começou!
+  </a>
+</div>
+</div>
+
     <script src="dados.js" defer></script>
     <script src="app.js" defer></script>
 </body>    
 </html>
-
  
-
-
